@@ -1,0 +1,20 @@
+div {
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(https://github.com/Johnny-imbewu/images/blob/master/bg.png?raw=true) center no-repeat fixed;
+  opacity: 10%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+html {
+	margin-left:10%;
+	margin-right:10%;
+}
