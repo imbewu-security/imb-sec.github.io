@@ -14,7 +14,3 @@ div::after {
   position: absolute;
   z-index: -1;
 }
-html {
-	margin-left:10%;
-	margin-right:10%;
-}
